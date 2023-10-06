@@ -1,0 +1,26 @@
+{
+    "wirt": {
+        "HOST": "localhost",
+        "NAME": "pysonet",
+        "PORT": "5432",
+        "USER": "postgres",
+        "ENGINE": "django.db.backends.postgresql_psycopg2",
+        "OPTIONS": {
+            "options": "-c search_path=wirt_schema"
+        },
+        "PASSWORD": "root",
+        "SCHEMA_NAME": "wirt_schema"
+    },
+    "wirts": {
+        "HOST": "localhost",
+        "NAME": "pysonet",
+        "PORT": "5432",
+        "USER": "postgres",
+        "ENGINE": "django.db.backends.postgresql_psycopg2",
+        "OPTIONS": {
+            "options": "-c search_path=wirts_schema"
+        },
+        "PASSWORD": "root",
+        "SCHEMA_NAME": "wirts_schema"
+    }
+}

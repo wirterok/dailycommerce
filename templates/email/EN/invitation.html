@@ -1,0 +1,36 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Confirm email</title>
+    <style>
+        footer {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<h1>Hello {{ name }},</h1>
+<p>
+    You are invited to {{ tenant.company_name }} to activate account follow steps below.
+</p>
+<p>
+    To activate your account, just click <a href="{{ url }}/{{ tenant.id }}/{{ uid }}/{{ token }}">here</a>.
+</p>
+<h2>What is it for?</h2>
+<p>
+    To prevent fake users and other trolls, this way we are making sure that this is you email.
+</p>
+<h2>Doubts?</h2>
+<p>
+    Contact us:
+    <br>
+    <a href="mailto:somemail@example.com">somemail@example.com</a>
+</p>
+<hr>
+<footer>
+    Science team
+    <br>
+    <a href="{{storefront_url}}">sciencecore.com</a>
+</footer>
+</body>
+</html>

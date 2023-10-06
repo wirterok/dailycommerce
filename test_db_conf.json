@@ -1,0 +1,13 @@
+{
+    "wirt": {
+        "HOST": "localhost",
+        "NAME": "pysonet",
+        "PORT": "5432",
+        "USER": "postgres",
+        "OPTIONS": {
+            "options": "-c search_path=wirt_schema"
+        },
+        "PASSWORD": "root",
+        "SCHEMA_NAME": "wirt_schema"
+    }
+}
